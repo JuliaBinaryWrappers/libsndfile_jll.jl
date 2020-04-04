@@ -1,113 +1,113 @@
 [[libsndfile]]
+arch = "i686"
+git-tree-sha1 = "f8f79d70a39d6a737b1f0f4682494ce12a969549"
+libc = "musl"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "47e60fc2d068f658da708f0a41d78b323a9a63258e0e7cc3b197026d4bbb3bb8"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.i686-linux-musl.tar.gz"
+[[libsndfile]]
+arch = "aarch64"
+git-tree-sha1 = "6104faecc54babde3b56ade60b83083cbd69dd66"
+libc = "musl"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "e40e6d136809e8480a4350ce3cfce0bf6fb0b5f9c3301f41d1e02dbb9f4f918d"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.aarch64-linux-musl.tar.gz"
+[[libsndfile]]
+arch = "i686"
+git-tree-sha1 = "2b746c0c9343f1cdb0e68164ecb6e1b8ef39d7ab"
+os = "windows"
+
+    [[libsndfile.download]]
+    sha256 = "e309ee77c2bc8c312502f8d9ea760c83e67604bd15c07d70f46d8187c697b782"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.i686-w64-mingw32.tar.gz"
+[[libsndfile]]
 arch = "x86_64"
-git-tree-sha1 = "4b49f0fbd649851f45aa0991d985debe1efc9fc7"
+git-tree-sha1 = "70bb0629bc8e97dc7a2853a8d4914ebbba1cc515"
+os = "windows"
+
+    [[libsndfile.download]]
+    sha256 = "fb6ae186cb70ea062e3c6ebe410b7a42ae835667ccb8a3486f6a442cc0571152"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.x86_64-w64-mingw32.tar.gz"
+[[libsndfile]]
+arch = "armv7l"
+git-tree-sha1 = "9f906380896a947be65f3bb66873bf7e7ebca19e"
+libc = "glibc"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "11be2bd8f9c5585548f61d5e683feff323410b528340c15952821aa70eadf115"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.armv7l-linux-gnueabihf.tar.gz"
+[[libsndfile]]
+arch = "armv7l"
+git-tree-sha1 = "82c5f0c9ee0cc815d29e7dbd5257569fd446d57e"
+libc = "musl"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "08a1a964a29e8afca29fe1d1a12ca361bab811e51be68b69d2a31db434d8208b"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.armv7l-linux-musleabihf.tar.gz"
+[[libsndfile]]
+arch = "i686"
+git-tree-sha1 = "c0340d17ca2cd49ffbca82442c5e01a1996d67bd"
+libc = "glibc"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "2555cefe4e40f5248167e465b6835f6d4bd9ebc90cb8d3382f02a4e9626a3f1b"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.i686-linux-gnu.tar.gz"
+[[libsndfile]]
+arch = "x86_64"
+git-tree-sha1 = "ea06742a9e1bede1bcd3659789bedaf6620f2396"
+libc = "glibc"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "a46f055172b25e80bed8d49b39c64ac1dd21e9726a7b6e354fe0f790dfe49f95"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.x86_64-linux-gnu.tar.gz"
+[[libsndfile]]
+arch = "powerpc64le"
+git-tree-sha1 = "492b6e8bc350fa0efdf84b9bd27226622a034876"
+libc = "glibc"
+os = "linux"
+
+    [[libsndfile.download]]
+    sha256 = "9eadccde58c64f54db623785196e4a33355619c07c792a35533ac419ea80e86c"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.powerpc64le-linux-gnu.tar.gz"
+[[libsndfile]]
+arch = "x86_64"
+git-tree-sha1 = "4c28a54d00e9b1cb478f7f488e0a4ff645519ac0"
 os = "macos"
 
     [[libsndfile.download]]
-    sha256 = "79974175f8b143a073b21fb77152a978a124f086b770cb26e2b62f3c976871d2"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.x86_64-apple-darwin14.tar.gz"
+    sha256 = "5026009aa9fb7bbbeedc1508bf70c61a14a0c5b8eece2cc634b6b6d072767924"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.x86_64-apple-darwin14.tar.gz"
 [[libsndfile]]
-arch = "i686"
-git-tree-sha1 = "8d3015bd105a575b68cb64e32a6aff8cc2f72609"
+arch = "aarch64"
+git-tree-sha1 = "f1ac702f3abc62f3731142ce8b7a1c65306450b8"
 libc = "glibc"
 os = "linux"
 
     [[libsndfile.download]]
-    sha256 = "1b0e4f6e6a969e1d5a35f50311895764d1c724d431a6b00d293a1d069e3f0dbd"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.i686-linux-gnu.tar.gz"
+    sha256 = "07b2923569b9091d7ee95cb1784a533e07e6c96406ba680c94a6286f29122e27"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.aarch64-linux-gnu.tar.gz"
 [[libsndfile]]
 arch = "x86_64"
-git-tree-sha1 = "5b5642e2359ee62164fd1228f1085fb4949ba950"
+git-tree-sha1 = "c3ce59f30ee093ef6c5aa5738aded29d6d10100c"
 os = "freebsd"
 
     [[libsndfile.download]]
-    sha256 = "572c185603567f9d2718d717d40abf9f3affe71c5f0933e33d361f48c818fbae"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.x86_64-unknown-freebsd11.1.tar.gz"
-[[libsndfile]]
-arch = "powerpc64le"
-git-tree-sha1 = "906d1b69562808da21eaeb98afe1434a56ee132f"
-libc = "glibc"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "eda5106f0223e18f179bd45f951b662050a0f0155f2da0149f41edb2566bf7e9"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "9bea12e32641ca770cd53724c2bd82253a77e43fb121c525a5e293da510e9d92"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.x86_64-unknown-freebsd11.1.tar.gz"
 [[libsndfile]]
 arch = "x86_64"
-git-tree-sha1 = "1c5197cefa324ecea6a0cfc0696c90bcf2f34d85"
+git-tree-sha1 = "b0286e48305c5150872d54529a192ae7dcaa5f37"
 libc = "musl"
 os = "linux"
 
     [[libsndfile.download]]
-    sha256 = "c0bfae12d1a9e2a2ff75fd722ddcea07e8a896ec1f6a138bba293fda270440a2"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.x86_64-linux-musl.tar.gz"
-[[libsndfile]]
-arch = "x86_64"
-git-tree-sha1 = "0dd9a85d7d348136e407361314ece2391d585950"
-libc = "glibc"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "1b45d6850da2ad60f86020ef5ff94c3e5e70f376952763554d60129b07ee76f7"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.x86_64-linux-gnu.tar.gz"
-[[libsndfile]]
-arch = "x86_64"
-git-tree-sha1 = "4dbac7fe0178dd45a5d9259560d3ed443aa1f092"
-os = "windows"
-
-    [[libsndfile.download]]
-    sha256 = "94e58865cad624ddb6134260b1c65c5952c8553ca87c66c8fee375897e9d7491"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.x86_64-w64-mingw32.tar.gz"
-[[libsndfile]]
-arch = "aarch64"
-git-tree-sha1 = "11efce94a2fea8995b19cb6fad2bffbaa280b098"
-libc = "musl"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "d31f30197fda21d3282778b2c0cf6243f69d80efb5501cf93e5182c7e8d9a2be"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.aarch64-linux-musl.tar.gz"
-[[libsndfile]]
-arch = "armv7l"
-git-tree-sha1 = "3d3800c3e9888190dc8b0e4c849d2eaf77d3b75d"
-libc = "glibc"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "8d19265789b98dcc36ecd838ca8624fd10f634868df7c3cd855e63dc7d4d2c46"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.arm-linux-gnueabihf.tar.gz"
-[[libsndfile]]
-arch = "i686"
-git-tree-sha1 = "82b730c8fea6e59665df77c73787783cd8d1b02e"
-libc = "musl"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "e9da714b4808815045ed2ed8aed159684b506363dccec11193008a3d99231104"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.i686-linux-musl.tar.gz"
-[[libsndfile]]
-arch = "armv7l"
-git-tree-sha1 = "3ddf974268b1f1c756276f4d66f8e76f6e5f1c84"
-libc = "musl"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "e01f7adb5c13e0df5d5e49c07a9f7827097e3b2065df5abe6e4731ef52b872e3"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.arm-linux-musleabihf.tar.gz"
-[[libsndfile]]
-arch = "aarch64"
-git-tree-sha1 = "8b47c5593605125f9cb0245fbec9bd7e3cbc69bc"
-libc = "glibc"
-os = "linux"
-
-    [[libsndfile.download]]
-    sha256 = "1164bf1a209975440c9858ebe7e3a67464772b3c43f4306445f597c3e41ebfc1"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.aarch64-linux-gnu.tar.gz"
-[[libsndfile]]
-arch = "i686"
-git-tree-sha1 = "0db8713a22deaf58da91754a05c62e6792b520e5"
-os = "windows"
-
-    [[libsndfile.download]]
-    sha256 = "d98179abf74b5beb623b380f9ce9ec6f77c203f1a25c00e83dae1e3ae00655ea"
-    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+0/libsndfile.v1.0.28.i686-w64-mingw32.tar.gz"
+    sha256 = "e377dd887b3386063b9488dce75e3c058af2d839a9c8e2ff67d166883eaa0a45"
+    url = "https://github.com/JuliaBinaryWrappers/libsndfile_jll.jl/releases/download/libsndfile-v1.0.28+1/libsndfile.v1.0.28.x86_64-linux-musl.tar.gz"
