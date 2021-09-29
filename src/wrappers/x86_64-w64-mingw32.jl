@@ -21,58 +21,58 @@ function __init__()
     JLLWrappers.@generate_init_header(FLAC_jll, Ogg_jll, libvorbis_jll, alsa_jll)
     JLLWrappers.@init_library_product(
         libsndfile,
-        "bin/libsndfile-1.dll",
+        "bin\\libsndfile-1.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_cmp,
-        "bin/sndfile-cmp.exe",
+        "bin\\sndfile-cmp.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_concat,
-        "bin/sndfile-concat.exe",
+        "bin\\sndfile-concat.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_convert,
-        "bin/sndfile-convert.exe",
+        "bin\\sndfile-convert.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_deinterleave,
-        "bin/sndfile-deinterleave.exe",
+        "bin\\sndfile-deinterleave.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_info,
-        "bin/sndfile-info.exe",
+        "bin\\sndfile-info.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_interleave,
-        "bin/sndfile-interleave.exe",
+        "bin\\sndfile-interleave.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_metadata_get,
-        "bin/sndfile-metadata-get.exe",
+        "bin\\sndfile-metadata-get.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_metadata_set,
-        "bin/sndfile-metadata-set.exe",
+        "bin\\sndfile-metadata-set.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_play,
-        "bin/sndfile-play.exe",
+        "bin\\sndfile-play.exe",
     )
 
     JLLWrappers.@init_executable_product(
         sndfile_salvage,
-        "bin/sndfile-salvage.exe",
+        "bin\\sndfile-salvage.exe",
     )
 
     JLLWrappers.@generate_init_footer()

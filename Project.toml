@@ -1,6 +1,6 @@
 name = "libsndfile_jll"
 uuid = "5bf562c0-5a39-5b4f-b979-f64ac885830c"
-version = "1.0.28+2"
+version = "1.0.31+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -13,5 +13,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 libvorbis_jll = "f27f6e37-5d2b-51aa-960f-b287f2bc3b7a"
 
 [compat]
-JLLWrappers = "1.1.0"
-julia = "1.0"
+JLLWrappers = "1.2.0"
+julia = "1.6"
