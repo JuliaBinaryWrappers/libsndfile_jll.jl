@@ -1,6 +1,6 @@
 name = "libsndfile_jll"
 uuid = "5bf562c0-5a39-5b4f-b979-f64ac885830c"
-version = "1.0.31+1"
+version = "1.0.31+2"
 
 [deps]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
