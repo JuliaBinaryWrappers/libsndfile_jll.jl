@@ -21,7 +21,7 @@ function __init__()
     JLLWrappers.@generate_init_header(FLAC_jll, libvorbis_jll, Ogg_jll, Opus_jll)
     JLLWrappers.@init_library_product(
         libsndfile,
-        "lib/libsndfile.1.0.31.dylib",
+        "lib/libsndfile.1.0.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
